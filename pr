@@ -1,0 +1,16 @@
+
+mkdir mern-friends-backend
+cd mern-friends-backend
+
+npm init -y
+
+npm install express mongoose jsonwebtoken bcryptjs cors
+
+mern-friends-backend/
+├── models/
+├── routes/
+├── controllers/
+├── middleware/
+├── config/
+├── .env
+├── server.js
